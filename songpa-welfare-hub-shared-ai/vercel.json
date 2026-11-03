@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/recommendations.js": {
+      "maxDuration": 30
+    },
+    "api/holidays.js": {
+      "maxDuration": 12
+    },
+    "api/validate-key.js": {
+      "maxDuration": 12
+    }
+  }
+}
